@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.casa-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(226, 163, 255) ;
+      
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: blueviolet;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+button{
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(226, 163, 255);
+    border-radius: 0.5rem;
+    color: blueviolet;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.tipo{
+    background-color:rgb(226, 163, 255) ;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#propertytype{
+    background-color: rgb(226, 163, 255);
+    border-radius: 0.5rem;
+}
+#location{
+    background-color: rgb(226, 163, 255);
+    border-radius: 0.5rem;   
+}
+#meters{
+    background-color: rgb(226, 163, 255);
+    border-radius: 0.5rem;
+}
+
+.precio{
+    background-color: blueviolet;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.history-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background-color: rgb(226, 163, 255); 
+}
+.his{
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: blueviolet;
+    padding: 0.5rem;
+    cursor: pointer;
+    
+    
+}
